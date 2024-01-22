@@ -2,17 +2,17 @@
 	"nodes":[
 		{"id":"40f78f37c77fb880","type":"group","x":-910,"y":322,"width":2390,"height":1058,"color":"#326de6","label":"컨트롤플레인"},
 		{"id":"83c5cfcfc7d1098a","type":"group","x":-960,"y":1560,"width":1420,"height":780,"color":"#326de6","label":"Worker Node"},
-		{"id":"16645bf70524af66","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/kubernetes API.md","x":-880,"y":1080,"width":400,"height":200},
+		{"id":"16645bf70524af66","type":"file","file":"오픈소스/k8s 기본구조/kubernetes API.md","x":-880,"y":1080,"width":400,"height":200},
 		{"id":"c4807e1bf265257b","type":"text","text":"[[kubernetes]]","x":-210,"y":192,"width":250,"height":60},
 		{"id":"c8ae057abeb60d14","type":"file","file":"sangm/이미지/쿠버네티스.svg","x":-210,"y":-98,"width":260,"height":260,"color":"#326de6"},
-		{"id":"8ff1f317b24492b5","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/마스터노드.md","x":-850,"y":400,"width":340,"height":200},
+		{"id":"8ff1f317b24492b5","type":"file","file":"오픈소스/k8s 기본구조/마스터노드.md","x":-850,"y":400,"width":340,"height":200},
 		{"id":"eb15829d7471554a","type":"file","file":"sangm/이미지/user-identity-svgrepo-com.svg","x":-1440,"y":720,"width":180,"height":180,"color":"1"},
-		{"id":"75d6643e2a2e7735","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/워커노드.md","x":-910,"y":1600,"width":400,"height":200},
-		{"id":"99c7f8142bb3e263","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/Kubelet.md","x":-480,"y":1600,"width":400,"height":200},
-		{"id":"cf59ed43f160a356","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/kubernetes scheduler.md","x":-370,"y":1080,"width":410,"height":200},
-		{"id":"99386c5a3b4c1130","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/kubernetes controller manager.md","x":600,"y":1080,"width":400,"height":200},
-		{"id":"65cb957b7c6e679d","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/kubernetes etcd.md","x":120,"y":1080,"width":400,"height":200},
-		{"id":"fefd13906a1b47c9","type":"file","file":"오픈소스/kubernetes/k8s 기본구조/kubectl.md","x":-1550,"y":1080,"width":400,"height":200}
+		{"id":"75d6643e2a2e7735","type":"file","file":"오픈소스/k8s 기본구조/워커노드.md","x":-910,"y":1600,"width":400,"height":200},
+		{"id":"99c7f8142bb3e263","type":"file","file":"오픈소스/k8s 기본구조/Kubelet.md","x":-480,"y":1600,"width":400,"height":200},
+		{"id":"cf59ed43f160a356","type":"file","file":"오픈소스/k8s 기본구조/kubernetes scheduler.md","x":-370,"y":1080,"width":410,"height":200},
+		{"id":"99386c5a3b4c1130","type":"file","file":"오픈소스/k8s 기본구조/kubernetes controller manager.md","x":600,"y":1080,"width":400,"height":200},
+		{"id":"65cb957b7c6e679d","type":"file","file":"오픈소스/k8s 기본구조/kubernetes etcd.md","x":120,"y":1080,"width":400,"height":200},
+		{"id":"fefd13906a1b47c9","type":"file","file":"오픈소스/k8s 기본구조/kubectl.md","x":-1550,"y":1080,"width":400,"height":200}
 	],
 	"edges":[
 		{"id":"1c018bf9e5c60bd2","fromNode":"c8ae057abeb60d14","fromSide":"bottom","toNode":"c4807e1bf265257b","toSide":"top"},

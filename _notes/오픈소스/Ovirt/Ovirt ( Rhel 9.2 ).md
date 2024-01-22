@@ -33,3 +33,8 @@ dnf -y install tmux
 
 hosted-engine --deploy --4
 ```
+
+
+
+admin@ovirt
+cloud1234

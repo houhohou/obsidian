@@ -1,7 +1,5 @@
 
-
-
-```/bin/bash
+```bash
 192.168.34.47 오픈스택 올인원
 
 192.168.34.45 deploy
@@ -21,7 +19,7 @@
 ```
 
 # 아직안한것들
-```/bin/bash
+```bash
 
 hwclock --hctosys
 
@@ -39,7 +37,7 @@ reboot
 ```
 
 apt repo바라보게 하는 명령어들
-```/bin/bash
+```bash
 
 #‘deb’를 ‘deb [arch=amd64]’로 변경
 sudo sed -i 's/\bdeb\b/deb [arch=amd64]/g' /etc/apt/sources.list
@@ -54,7 +52,7 @@ exit
 
 ```
 chrony설정
-```/bin/bash
+```bash
 
 #모든서버
 apt -y install chrony --fix-missing
@@ -89,20 +87,15 @@ EOF
 systemctl enable chrony
 systemctl restart chrony
 chronyc sources
-
-
-
-
-
 ```
 #'chrony sources'했을때  아래처럼 뜨면 안되고
-![](https://i.imgur.com/XmS6WPe.png)
+![300](https://i.imgur.com/XmS6WPe.png)
 #'chrony sources'했을때  아래처럼 떠야함! 
-![](https://i.imgur.com/Zof1Wlq.png)
+![300](https://i.imgur.com/Zof1Wlq.png)
 
 
 
-```/bin/bash
+```bash
 #모든서버에서 진행  하드웨어시간 동기화
 
 hwclock --systohc

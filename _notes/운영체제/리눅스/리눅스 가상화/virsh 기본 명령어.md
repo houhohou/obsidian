@@ -3,41 +3,38 @@
 
 ##### 인스턴스 확인명령어
 ```bash
-#가동중인 인스턴스 확인
+# 가동중인 인스턴스 확인
 virsh list
 
-#전체 인스턴스 확인하기
+# 전체 인스턴스 확인하기
 virsh list --all
 
-#인스턴스 상세확인
+# 인스턴스 상세확인
 virsh edit [인스턴스 이름]
 
-#인스턴스 상태 확인 (CPU 같은거 확인)
+# 인스턴스 상태 확인 (CPU 같은거 확인)
 virsh domstats [가상머신도메인 이름]
 ```
-
-
 ##### 인스턴스 동작 설정
 ```bash
-#인스턴시 켜기 
+# 인스턴스 켜기 
 virsh start [인스턴스 이름]
 
-#인스턴스 일시중지 ⏸️
+# 인스턴스 일시중지 ⏸️
 virsh suspend [인스턴스 이름]
 
-#인스턴스 일시중지 중 시작
+# 인스턴스 일시중지 중 시작
 virsh resume [인스턴스 이름]
 
-#인스턴스 재부팅
+# 인스턴스 재부팅 🔁
 virsh reboot [인스턴스 이름]
 
-#인스턴스 끄기
+# 인스턴스 끄기 🟥
 virsh shutdown [인스턴스 이름]
 
-#인스턴스 삭제 ❌
+# 인스턴스 삭제 ❌
 virsh destroy [인스턴스 이름]
 ```
-
 ##### 인스턴스의 스냅샷
 ``` bash
 #인스턴스 스냅샷 찍기
@@ -58,7 +55,6 @@ virsh save  <instance_name> example_file.xml
 #인스턴스 환경파일로 시작
 virsh restore example_file.xml
 ```
-
 ##### 인스턴스 접속
 ``` bash
 #콘솔 접속
@@ -69,4 +65,8 @@ virsh console <instance_id>
 
 #콘솔 빠져나오기
 ## 키보드의 ctrl + ] 를 누른다
+```
+##### 패스워드 치지않고 작업하기
+```bash
+virsh -c qemu:///system?authfile=/etc/ovirt-hosted-engine/virsh_auth.conf
 ```

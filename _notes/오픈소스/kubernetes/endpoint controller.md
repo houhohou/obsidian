@@ -1,9 +1,9 @@
 #kubernetes 
-[[kubernetes]]에서 [[pod]]들의 집합을 Endpoint로 유도하는 역할
+[[kubernetes]]에서 [[Pod]]들의 집합을 Endpoint로 유도하는 역할
 
 👉 [[kubernetes controller manager]]에 의해 관리된다
 
-👉 [[SVC]]에 의해 유효한 [[pod]]들을 Endpoint 목록에 추가하고 [[pod]]가 삭제되면 endpoint 목록에서 삭제
+👉 [[SVC]]에 의해 유효한 [[Pod]]들을 Endpoint 목록에 추가하고 [[Pod]]가 삭제되면 endpoint 목록에서 삭제
 
 Endpoint들 확인하는 명령어
 ```bash
